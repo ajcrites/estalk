@@ -2,8 +2,11 @@ let Transform = require("stream").Transform;
 
 class TransformStreamImpl extends Transform {
     _transform(chunk, enc, callback) {
-        this.push(chunk.reverse());
+        this.push(this.reverse(chunk));
         callback();
+    }
+    reverse(chunk) {
+        return chunk.reverse();
     }
 }
 
