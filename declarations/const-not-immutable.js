@@ -1,3 +1,3 @@
-const obj = {x: "y"};
-obj.x = "z";
-console.log(obj.x);
+const flowers = {heliotrope: "pretty"};
+flowers.heliotrope = "ugly";
+console.log(flowers.heliotrope);

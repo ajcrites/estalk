@@ -1,6 +1,7 @@
-for (var i = 0; i < 10; i++) {
-    setImmediate(() => console.log(i));
+for (var print10ALot = 0; print10ALot < 10; ++print10ALot) {
+    setImmediate(() => console.log(print10ALot));
 }
-for (let x = 0; x < 10; ++x) {
-    setImmediate(() => console.log(x));
+
+for (let printTheRightNumbers = 0; printTheRightNumbers < 10; ++printTheRightNumbers) {
+    setImmediate(() => console.log(printTheRightNumbers));
 }

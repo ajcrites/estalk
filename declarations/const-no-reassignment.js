@@ -1,2 +1,2 @@
-const x = 1;
-x = 2;
+const thisCantBeChanged = 1;
+thisCantBeChanged = 2;

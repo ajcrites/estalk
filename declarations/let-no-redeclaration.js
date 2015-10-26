@@ -1,3 +1,3 @@
-let x;
+let iWantASyntaxError;
 // syntax error
-let x;
+let iWantASyntaxError;

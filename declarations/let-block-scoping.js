@@ -1,8 +1,8 @@
-let x = 1;
+let uniquePerBlock = "outside if block";
 
 if (true) {
-    let x = 2;
-    console.log(x);
+    let uniquePerBlock = "inside if block";
+    console.log(uniquePerBlock);
 }
 
-console.log(x);
+console.log(uniquePerBlock);
