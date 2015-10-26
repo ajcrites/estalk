@@ -1,9 +1,9 @@
-let a = "b";
-let x = {a};
-let q = {
-    [x.a]: "z",
-    [["a", "b"].reverse().join('')]: () => {
+let halphas = "halkwind";
+let torgal = {halphas};
+let company = {
+    [torgal.halphas]: "equipped",
+    [["remnant", "last "].reverse().join('')]: () => {
     }
 };
 
-console.log(q);
+console.log(company);
