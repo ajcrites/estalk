@@ -1,8 +1,8 @@
-let obj = {
+let iDontHaveAThis = {
     mine: "yours",
     speak: () => {
         console.log(this.mine);
     }
 }
 
-obj.speak();
+iDontHaveAThis.speak();

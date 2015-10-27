@@ -1,7 +1,7 @@
-[1,2,3,4].forEach(function (item) {
+["correct","horse","battery","staple"].forEach(function (item) {
     console.log(item);
 });
 
-[1,2,3,4].forEach(item => {
+["correct","horse","battery","staple"].forEach(item => {
     console.log(item);
 });
