@@ -1,9 +1,9 @@
-function* generate() {
-    yield 1;
-    yield 2;
-    yield 3;
+function* moveZig() {
+    yield "All";
+    yield "your";
+    yield "base";
 }
 
-for (let x of generate()) {
-    console.log(x);
+for (let areBelongToUs of moveZig()) {
+    console.log(areBelongToUs);
 }

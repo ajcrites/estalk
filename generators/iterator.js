@@ -1,9 +1,9 @@
 let iter = {
     [Symbol.iterator]: function* () {
-        yield "hi";
+        yield "I iterate, but once";
     }
 };
 
-for (let x of iter) {
-    console.log(x);
+for (let tautology of iter) {
+    console.log(tautology);
 }
