@@ -8,4 +8,4 @@ let anAndrew = {
 
 let {firstname, lastname, hobbies, ...etc} = anAndrew;
 
-console.log(firstname, lastname, hobbies, etc, foo);
+console.log(firstname, lastname, hobbies, etc);
